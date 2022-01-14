@@ -37,6 +37,39 @@ a{
 .fa-arrow-right{
     color:whitesmoke
 }
+/* ----popular collection-- */
+#popular-center{
+    text-align: center;
+    font-size: 28px;
+    color: #3A3A3A;
+
+}
+.popular-collections{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 44px;
+}
+.popular-collection{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    width: 329px;
+    height: 476px
+}
+.img-tripod>img{
+    width: 300px;
+   height: 256px;
+}
+.popular-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+ /* .fa-starfilled{
+    background:burlywood;
+}  */
 
 
 /* footer styles */
