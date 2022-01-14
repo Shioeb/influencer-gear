@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer styles */
+ footer{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0A0826;
+    color: white;
+    /* width:100vw; */
+    height: 300px;
+} 
+.influence-footer{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  .fa-instagram, .fa-twitwer , .fa-youtube{
+    padding: 15px;
+}
