@@ -1,6 +1,43 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
 }
+/* first section styles */
+nav{
+    margin-left: 116px;
+}
+.influencer-journey{
+    display: flex;
+    /* width: 0vw; */
+}
+.journey-text{
+    width: 582px;
+    height: 270px;
+    padding: 84px;
+}
+.journey-text h1{
+    font-size: 36px;
+}
+.journey-img>img{
+    width: 440px;
+height: 414px;
+}
+.journey-img:hover{
+    transform: scaleY(1.5) rotate(60deg);
+    transition: transform .25s ease-out;
+}
+a{ 
+
+    background: #E02C6D;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 41px;
+    font-size: 12px;
+}
+.fa-arrow-right{
+    color:whitesmoke
+}
+
 
 /* footer styles */
  footer{
