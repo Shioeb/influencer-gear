@@ -18,6 +18,7 @@ nav{
 .journey-text h1{
     font-size: 36px;
 }
+
 .journey-img>img{
     width: 440px;
 height: 414px;
@@ -51,6 +52,7 @@ button{
     grid-template-columns: auto auto auto;
     justify-content: center;
     grid-column-gap: 44px;
+    width: 100vw;
 }
 .popular-collection{
     display: flex;
@@ -113,4 +115,78 @@ button{
   .fa-instagram, .fa-twitwer , .fa-youtube{
     padding: 15px;
 }
-
+@media only screen and (max-width: 480px)  {
+/* for mobile responsive */
+    .influencer-journey{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+        
+    }
+    .journey-text{
+        padding: 0;
+        width: 100vw;
+    }
+    .journey-img{
+        margin-top: 35px;
+    }
+    .popular-collections{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .global-products {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+    
+    }
+}
+@media only screen  and (min-device-width: 768px) 
+and (max-device-width: 1024px)    {
+     
+    /* responsive for tablets */
+    .influencer-journey{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        
+    }
+    .journey-text{
+        padding:15px;
+        width: 65%;
+    
+    }
+    .journey-img{
+        margin-top: 35px;
+    }
+    .popular-collections{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100vw;
+    }
+    .global-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+    
+    }
+}
+@media only screen  and (min-device-width: 1200px) 
+   {
+     
+    /* responsive for laptops and dextop */
+    .influencer-journey{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        
+    }
+   
+    }
+    .popular-collections{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100vw;
+    }
+    
+}
